@@ -1,3 +1,9 @@
+
+body {
+    background: #6248f3;
+    margin-left: 100px;
+}
+
 .wheel {
     position: absolute;
     width: 55vw;
@@ -96,11 +102,18 @@
 @keyframes cabins {
     0% {
         transform: rotate(0deg);
+    }
+
+    25% {
         background-color: yellow;
     }
 
     50% {
         background-color: purple;
+    }
+
+    75% {
+        background-color: yellow;
     }
 
     100% {
